@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<TargetEndpoint name="microservice-apicl">
+    <Description>spring boot RKE Target endpoint for authenticate user and this connects to East and West</Description>
+	<FaultRules>
+	</FaultRules>
+    <HTTPTargetConnection>
+        <LoadBalancer>
+	      <Algorithm>Weighted</Algorithm>
+	      <Server name="tsr-apicl.flagstar.com">
+	        <Weight>8</Weight>
+	      </Server>
+	    </LoadBalancer>
+    <Path>targetLoginPath</Path>
+    </HTTPTargetConnection>
+</TargetEndpoint>

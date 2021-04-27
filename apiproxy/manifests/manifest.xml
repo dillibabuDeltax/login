@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:1013190eb6fe25f6220bea9f2d0d1476362f9163301c96f65d195f3d0711c44952e90bbc207db829c9af2cd0a3f355ecacec10f91f4c5f17e4cea7fc3a07286a"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <!-- This section is populated by proxy-gen tool -->
+    <TargetEndpoints>
+		<VersionInfo resourceName="microservice-apicl" version="SHA-512:a60bf727b29b2fb9b28039192052f5fb6572ade9befa08b0c89542fc7241973656969cc5f25cc322cab51066aea449eeac65143a44a26e414bf0b58ef14f22db"/>
+    </TargetEndpoints>
+</Manifest>
